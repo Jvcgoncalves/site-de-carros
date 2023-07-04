@@ -81,7 +81,7 @@
    font-family: 'bebas neue';
    letter-spacing: 2px;
    gap:15px 15px;
-   height: 75%;
+   max-height: 1300px;;
 }
 .itens{
    width: 300px;
@@ -144,7 +144,41 @@
    color: #eee;
    transition: 0.4s;
 }
-@media(max-width:920px){
+#especificExtraInformation{
+   display: flex;
+   flex: 1 0 auto;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+   gap: 25px;
+}
+#extraInformationItem{
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   gap: 10px;
+}
+.informations-photo{
+   width: 300px;
+   height: 250px;
+}
+#extraInformationItem h3{
+   border-left: 5px solid  #1201af;
+   padding-left: 5px;
+   font-family: 'bebas neue',sans-serif;
+   letter-spacing: 1px;
+   font-size: 22px;
+}
+#extraInformationItem p{
+   font-family: 'roboto',sans-serif;
+   word-wrap: break-word;
+}
+#curiositiesItem{
+   display: flex;
+   width: 300px;
+}
+/* @media(max-width:920px){
    .content {display: grid;
    grid-template-columns: 2fr ;
    grid-template-areas: 
@@ -186,4 +220,4 @@
    .main-img{
       height: 40%;
    }
-}
+} */
