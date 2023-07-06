@@ -156,6 +156,7 @@
 .informations-photo{
    width: 300px;
    height: 250px;
+   border-radius: 5px;
 }
 #extraInformationItem h3{
    border-left: 5px solid  #1201af;
@@ -172,11 +173,14 @@
    display: flex;
    font-family: 'roboto',sans-serif;
    flex-direction: column;
-   width: 300px;
+   width: 400px;
 }
 #curiositiesItem h3{
    font-family: 'bebas neue',sans-serif;
    letter-spacing: 1px;
    font-size: 25px;
    padding-left: 15px;
+}
+#curiositiesItem li{
+   padding: 5px;
 }
