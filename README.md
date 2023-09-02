@@ -33,11 +33,6 @@ Techs i used to develop this project
 
 ![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/71b52001-b822-4d2f-922a-a520da09f43d)
 
-
-![Portfolio](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/portfolio_1.png)
-![Portfolio](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/portfolio_2.png)
-
-
 ## Features
 
 The main feature of the application are:
