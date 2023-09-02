@@ -21,11 +21,11 @@ Techs i used to develop this project
   
 ## How to use
 
-### 1 - When you access, you will see the main page, you can click or touch if you are at mobile system to see more information about the vehicle.
+### 1 - When you access, you will see the main page, you can click or touch if you are at mobile system to see more information about the vehicle. At click/touch you will be redirected to the extra information section, which contains technical data sheet and curiosities about the vehicle.
 
 ![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/f01605a5-09e8-459f-bd0a-117fd845d1f0)
 
-### 2 - Had an aside bar to navigate into other kins of vehicles pages.
+### 2 - Had an aside bar to navigate into other kins of vehicles pages, have 5 diferent topics to see and 48 vehicle to learn about, enjoy 😀.
 
 ![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/afaf6906-044f-479e-ab7b-ff4c485beaa1)
 
