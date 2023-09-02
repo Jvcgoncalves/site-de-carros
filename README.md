@@ -25,7 +25,7 @@ Techs i used to develop this project
 
 ![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/f01605a5-09e8-459f-bd0a-117fd845d1f0)
 
-### 2 - Had an aside bar to navigate into other kins of vehicles pages, have 5 diferent topics to see and 48 vehicle to learn about, enjoy 😀.
+### 2 - Had an aside bar to navigate into other kins of vehicles pages, in total there are 5 different topics to see and 48 vehicle to learn about, enjoy 😀.
 
 ![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/afaf6906-044f-479e-ab7b-ff4c485beaa1)
 
