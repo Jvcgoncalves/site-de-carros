@@ -1,120 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
+   <meta name="description" content="Página com conteúdo de veículos terrestres, SUVS, motos, carros, supercarros e pick-ups">
+   <meta name="description" content="Curiosidades sobre alguns veículos famosos.">
+   <meta name="author" content="João Vitor Gonçalves da Costa | dev Front-end">
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="src/style.css">
-   <link rel="stylesheet" href="/src/mediaStyle.css">
-   <script src="main.js" defer></script>
-   <title>Live motors</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="/css/mediaStyle.css">
+   <link rel="shortcut icon" href="imagens/favicon_io (2)/favicon.ico" type="image/x-icon">
+   <script type="module" defer src="./scripts/main.js" ></script>
+   <script type="module" defer src="scripts/moveBetweenPages.js"></script>
+   <title>Live 4 motors</title>
 </head>
+
 <body>
-   <div class="container">
-      <header class="header">
-         <a href="index.html"><img src="src/imagens/icon-logo.png" alt="logo do site" class="icone"></a>
-         <h1 class="name-brand">Live 4 motors</h1>
-         <div class="btns-top">
-            <button class="btn">Login</button>
-            <button class="btn">FAQ</button>
-            <button class="btn">Suporte</button>
-         </div>
+   <div class="container" data-page="carsPage">
+      <header>
+         <nav class="header">
+            <a href="index.html"><img src="imagens/icon-logo.png" alt="logo do site" class="icone"></a>
+            <h1 class="name-brand">Live 4 motors</h1>
+            <div class="btns-top">
+               <button class="btn">Login</button>
+               <button class="btn">FAQ</button>
+               <button class="btn">Suporte</button>
+            </div>
+            <button class="mobile-icon">
+               <img class="menu-icon" src="imagens/menu-hamburger.png" alt="">
+            </button>
+            <nav id="mobile-menu">
+               <ul>
+                  <li><button class="btn-menu">Login</button></li>
+                  <li><button class="btn-menu">FAQ</button></li>
+                  <li><button class="btn-menu">Suporte</button></li>
+                  <li><button class="btn-menu">Outros tópicos</button></li>
+                  <li><button class="btn-menu">Voltar para o topo</button></li>
+               </ul>
+            </nav>
+      </nav>
+      
       </header>
       <div class="brand-phrase">
          <h1>Live 4 motors</h1>
-         <p>Para os apaixonados por motores, na água, no ar ou na terra.</p>
+         <p>Para os apaixonados por motores.</p>
       </div>
       <a id="back"></a>
-      <section class="content"> 
+      <section class="content">
          <div class="main-content">
-            <div data-bike-model="civic-hatch-1998" class="itens">
-               <img class="main-img" src="src/imagens/conteudo-principal/Civic-antigo-hatch.jpg" alt="civic-antigo-hatch-photo">
+            <div data-vehicle-model="civic hatch 1998" class="itens">
+               <img class="main-img" src="imagens/conteudo-carros/Civic-antigo-hatch.jpg"
+               alt="civic-antigo-hatch-photo">
                <h3>Civic hatch 1998</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus illo fuga non, eum iure.</p>
+               <p>O Honda Civic 1998, conhecido pelo seu estilo icônico e confiabilidade, é um clássico que perdura no imaginário dos entusiastas de automóveis.</p>
             </div>
-            <div class="itens">
-               <img class="main-img" src="src/imagens/conteudo-principal/Civic-antigo-sedan.jpg" alt="civic-antigo-sedan-photo">
-               <h3>Civic 1998</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus illo fuga non, eum iure.</p>
+            <div data-vehicle-model="civic 2008 si" class="itens">
+               <img class="main-img" src="imagens/conteudo-carros/Civic-antigo-sedan.jpg"
+               alt="civic-antigo-sedan-photo">
+               <h3>Civic 2008 SI</h3>
+               <p>O Civic SI 2008 é uma versão esportiva do popular sedan compacto. Com sua transmissão manual, o Civic proporciona uma condução emocionante.</p>
             </div>
-            <div class="itens">
-               <img class="main-img" src="src/imagens/conteudo-principal/civic-type-r.jpg" alt="civic-type-r-photo">
+            <div data-vehicle-model="civic type R 2023" class="itens">
+               <img class="main-img" src="imagens/conteudo-carros/civic-type-r.jpg" alt="civic-type-r-photo">
                <h3>Civic type R 2023</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus illo fuga non, eum iure.</p>
+               <p>O Civic Type R é a mais recente versão do carro esportivo da Honda. Seu motor turboalimentado de alta potência oferece uma resposta rápida do acelerador.</p>
             </div>
-            <div class="itens">
-               <img class="main-img" src="src/imagens/conteudo-principal/golf(sapão)-mk4-preto.jpg" alt="golf-mk4-photo">
+            <div data-vehicle-model="golf mk4" class="itens">
+               <img class="main-img" src="imagens/conteudo-carros/golf(sapão)-mk4-preto.jpg" alt="golf-mk4-photo">
                <h3>Golf mk4 </h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus illo fuga non, eum iure.</p>
+               <p>O Volkswagen Golf MK4, também conhecido como Golf IV ou golf "sapão" no Brasil, é a quarta geração do popular hatchback compacto da Volkswagen.</p>
             </div>
-            <div class="itens">
-               <img class="main-img" src="src/imagens/conteudo-principal/Golf-gti-mk7.jpg" alt="Golf-gti-mk7-photo">
-               <h3>Golf GTI mk7</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus illo fuga non, eum iure.</p>
+            <div data-vehicle-model="ford focus rs" class="itens">
+               <img class="main-img" src="imagens/conteudo-carros/ford-focus-rs.jpg" alt="ford-focus-rs-photo">
+               <h3>Ford Focus RS</h3>
+               <p>equipado com um motor potente e tração nas quatro rodas, o Focus RS proporciona uma sensação de controle excepcional e adrenalina.</p>
             </div>
-            <div class="itens">
-               <img class="main-img" src="src/imagens/conteudo-principal/Golf-mk5.jpg" alt="golf-mk5-photo">
-               <h3>Golf mk5</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus illo fuga non, eum iure.</p>
+            <div data-vehicle-model="subaru impreza wrx sti" class="itens">
+               <img class="main-img" src="imagens/conteudo-carros/subaru-impreza-wrx-sti.jpg" alt="subaru-wrx-sti-photo">
+               <h3>Subaru impreza wrx sti</h3>
+               <p>Com um motor turboalimentado, suspensão esportiva ajustada e tração integral o WRX STI oferece uma experiência de direção.</p>
             </div>
-            <div class="itens">
-               <img class="main-img" src="src/imagens/conteudo-principal/Lancer-evolution-V.jpg" alt="Lancer-evolution-V">
+            <div data-vehicle-model="lancer evolution V" class="itens">
+               <img class="main-img" src="imagens/conteudo-carros/Lancer-evolution-V.jpg" alt="Lancer-evolution-V">
                <h3>Lancer evolution V</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus illo fuga non, eum iure.</p>
+               <p>O Lancer Evolution V é a quinta evolução de um ícone automotivo, fundindo elegância com potência turboalimentada e tração nas quatro rodas.</p>
             </div>
-            <div class="itens">
-               <img class="main-img" src="src/imagens/conteudo-principal/Lancer-evolution-VI.jpg" alt="Lancer-evolution-VI-photo">
-               <h3>Lancer evolution VI</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus illo fuga non, eum iure.</p>
+            <div data-vehicle-model="acura nsx 91" class="itens">
+               <img class="main-img" src="imagens/conteudo-carros/acura-nsx.jpg"
+               alt="acura-nsx-r">
+               <h3>Acura nsx 91</h3>
+               <p>Com um motor V6 de alta eficiência junto a motores elétricos e o sistema de tração integral SH-AWD. O nsx é uma ótima espericia para quem busca emoção.</p>
             </div>
-            <div class="itens">
-               <img class="main-img" src="src/imagens/conteudo-principal/Lancer-evo-9.jpg" alt="lancer-evo-9-photo">
-               <h3>Lancer evolution IX</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus illo fuga non, eum iure.</p>
+            <div data-vehicle-model="mazda rx7" class="itens">
+               <img class="main-img" src="imagens/conteudo-carros/mazda-rx7.jpg" alt="mazda-rx7-photo">
+               <h3>Mazda rx7</h3>
+               <p>O Mazda RX-7 é um ícone dos carros esportivos que se destaca pela sua configuração de motor rotativo, oferecendo muita potência e agilidade.</p>
             </div>
-            <div class="itens">
-               <img class="main-img" src="src/imagens/conteudo-principal/gtr-r32.jpg" alt="gtr-r32-photo
+            <div data-vehicle-model="gtr r32" class="itens">
+               <img class="main-img" src="imagens/conteudo-carros/gtr-r32.jpg" alt="gtr-r32-photo
                ">
                <h3>Gtr R32</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus illo fuga non, eum iure.</p>
+               <p>Lançado em 1989, o GT-R R32 revolucionou o cenário automobilístico com seu desempenho excepcional e tecnologia inovadora.</p>
             </div>
-            <div class="itens">
-               <img class="main-img" src="src/imagens/conteudo-principal/gtr-r33.jpg" alt="gtr-r33-photo">
-               <h3>Gtr R33</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus illo fuga non, eum iure.</p>
+            <div data-vehicle-model="Supra mk4" class="itens">
+               <img class="main-img" src="imagens/conteudo-carros/supra-mk4.jpg" alt="Supra-mk4-photo">
+               <h3>Supra mk4</h3>
+               <p>Equipado com um motor turboalimentado de seis cilindros em linha e tração traseira, oferecendo uma experiência de condução emocionante.</p>
             </div>
-            <div class="itens">
-               <img class="main-img" src="src/imagens/conteudo-principal/gtr-r34.jpg" alt="gtr-r34-photo">
+            <div data-vehicle-model="gtr r34" class="itens">
+               <img class="main-img" src="imagens/conteudo-carros/gtr-r34.jpg" alt="gtr-r34-photo">
                <h3>Gtr R34</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus illo fuga non, eum iure.</p>
+               <p>O Nissan GT-R R34 é a quarta geração do lendário supercarro esportivo da Nissan, mantem a tradição como um dos veículos mais icônicosdo mundo automotivo.</p>
             </div>
          </div>
-         <div class="aside">
+         <div id="asideItens" class="aside">
             <p>Mais topicos</p>
-            <div class="itens-aside">
-               <img class="aside-img" src="src/imagens/conteudo-extra/Barco.jpg" alt="boat-photo">
-               <p>Barcos</p>
+            <div class="itens-aside" data-actual-img="hypercars" data-travel-to="hypercars" data-number="0">
+               <p>Superesportivos</p>
             </div>
-            <div class="itens-aside">
-               <img class="aside-img" src="src/imagens/conteudo-extra/pick up.jpg" alt="pick-up-photo">
+            <div class="itens-aside" data-actual-img="pickUps" data-travel-to="pick-ups" data-number="1">
                <p>Pick-ups</p>
             </div>
-            <div class="itens-aside">
-               <img class="aside-img" src="src/imagens/conteudo-extra/Avioes.jpg" alt="plane-photo">
-               <p>Aviões</p>
+            <div class="itens-aside" data-actual-img="suvs" data-travel-to="suvs" data-number="2">
+               <p>Suvs</p>
             </div>
-            <div id="motorbike" class="itens-aside">
-               <img class="aside-img" src="src/imagens/conteudo-extra/Motos.jpg" alt="motorbike-photo">
+            <div class="itens-aside" data-actual-img="bikes" data-travel-to="bikes" data-number="3">
                <p>Motos</p>
             </div>
          </div>
       </section>
       <div id="especificExtraInformation">
-         
+
+      </div>
+      <div id="referencesLinks">
+         <a target="_blank" href="https://www.carrosnaweb.com.br/">CarrosnaWeb.com</a>
+         <a target="_blank" href="https://www.agoramotor.com.br/">Agoramotor.com</a>
+         <a target="_blank" href="http://carros2023.com.br">Carros2023.com</a>
+         <a target="_blank" href="http://noticiasdecarros.com.br">Noticiasdecarros.com </a>
+         <a target="_blank" href="http://www.autoblog.com">Autoblog.com</a>
+         <a target="_blank" href="http://motor1.uol.com.br">Motor1uol.com</a>
+         <a target="_blank" href="http://guiaauto.com.br">Guiaauto.com</a>
       </div>
       <footer class="footer">
-         <a href="index.html"><img src="src/imagens/icon-logo.png" alt="logo do site" class="icone"></a>
-            <a href="#back">Voltar para o topo</a> 
+         
+         <div id="refDiv">
+            <button id="seeReferences">
+              Referências
+            </button><span id="arrow"><img src="imagens/setaDown.png" alt=""></span>
+         </div>
+         <p>&copygonçalves</p>
+         <a id="backToTop" href="#back">Voltar para o topo</a>
       </footer>
    </div>
 </body>
