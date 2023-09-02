@@ -1,69 +1,38 @@
 
 ![icon-logo](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/d72ba40c-9da7-4062-bf94-ddb799b36d3f)
 
-## Blog Lucas Fernandes
-This is my blog \o/ 
-Enjoy It and I hope you can learn a lot!
+## Live for motors 🚗
+Website about vehicles
+Enjoy you discoveries
 
 
 ## Technology 
 
-Here are the technologies used in this project.
+Techs i used to develop this project
 
-* Ruby version  3.0.0
-* Rails version 6.1.3.2
-* PostgreSQL
+* Java Script  ES6
+* Babel
 * Webpacker
 
 ## Services Used
 
 * Github
-* Heroku
-
-## Ruby Gems
-
-* Devise
-* Bootstrap
-* Kaminari
-* Select2
-* Cancancan
-
-
-## Getting started
-
-* Dependency
-  - Ruby  
-  - Rails
-
-* To create and build your database accord of the project.
-  - rake db:create db:migrate
+* Netlify
   
-* To create the previous files to use on the project, on the database.
-  - rake db:seed
-  
-* To install the gems.
-  - bundle install
-  
-* To run the project.
-  - rails s
-
 ## How to use
 
-### 1 - When you access, you will see the Home page <3
+### 1 - When you access, you will see the main page, you can click or touch if you are at mobile system to see more information about the vehicle.
 
-![Homepage image](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/home.png)
+![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/f01605a5-09e8-459f-bd0a-117fd845d1f0)
 
-### 2 - You can also see a lot of information on the Blog posts session.
+### 2 - Had an aside bar to navigate into other kins of vehicles pages.
 
-![Posts](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/posts.png)
+![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/afaf6906-044f-479e-ab7b-ff4c485beaa1)
 
-### 3 - Or access some of the posts :D
+### 3 - At the end you will find the footer and, as you can see, I have included the references that I used to fill in the information, so that all the information on this site is true and reliable.
 
-![Post show](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/post_1.png)
-![Post show](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/post_2.png)
-![Post show](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/post_3.png)
+![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/71b52001-b822-4d2f-922a-a520da09f43d)
 
-### 4 - Or you can see my personal Portfolio.
 
 ![Portfolio](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/portfolio_1.png)
 ![Portfolio](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/portfolio_2.png)
@@ -71,17 +40,14 @@ Here are the technologies used in this project.
 
 ## Features
 
-The main features of the application are:
- - Publish Posts.
- - Learn a lot of information <3
-
+The main feature of the application are:
+ - Learn information about vehicles.
 
 ## Links
-  - Deploy on Heroku: https://lucas-dev.com/
-  - Repository: https://github.com/Lucasdfg07/Blog_Lucas_Fernandes
-    - In case of sensitive bugs like security vulnerabilities, please contact
-      Lucassiqueiraferandes07@gmail.com directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
+  - Deploy on netlify: https://live4motors.netlify.app/
+  - Repository: https://github.com/Jvcgoncalves/site-de-veiculos
+    - In case of bugs, suggestions or problems about license about any image,
+      contact goncalvesdacosta05@gmail.com
 
   ## Versioning
 
@@ -90,7 +56,7 @@ The main features of the application are:
 
   ## Authors
 
-  * **Lucas Siqueira Fernandes** 
+  * **João Vitor Gonçalves da Costa** 
 
-  Please follow github and join us!
+  Please follow github and linkdin (link in my profile )!
   Thanks to visiting me and good coding!
