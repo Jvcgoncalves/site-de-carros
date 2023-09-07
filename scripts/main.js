@@ -1,7 +1,5 @@
 import { carStatus,bikeStatus,hypercarsStatus,pickUpsStatus,suvsStatus } from "./arrays/infoArrays.js";
 import { responsiveMenu } from "./travelOnPage.js";
-require('../css/style.css')
-require('../css/mediaStyle.css')
 
 let vehicleStatus;
 
