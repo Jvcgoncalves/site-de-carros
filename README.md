@@ -23,15 +23,15 @@ Techs i used to develop this project
 
 ### 1 - When you access, you will see the main page, you can click or touch if you are at mobile system to see more information about the vehicle. At click/touch you will be redirected to the extra information section, which contains technical data sheet and curiosities about the vehicle.
 
-![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/f01605a5-09e8-459f-bd0a-117fd845d1f0)
+![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/2bb76587-276f-4429-bcab-a18fb23bdb1e)
 
 ### 2 - Had an aside bar to navigate into other kins of vehicles pages, in total there are 5 different topics to see and 48 vehicle to learn about, enjoy 😀.
 
-![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/afaf6906-044f-479e-ab7b-ff4c485beaa1)
+![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/4867379f-95d7-4aad-b27a-c8034e70a22f)
 
 ### 3 - At the end you will find the footer and, as you can see, I have included the references that I used to fill in the information, so that all the information on this site is true and reliable.
 
-![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/71b52001-b822-4d2f-922a-a520da09f43d)
+![image](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/b1c7b030-5d27-44b8-8410-18278099ad70)
 
 ## Features
 
@@ -46,7 +46,7 @@ The main feature of the application are:
 
   ## Versioning
 
-  1.0.0.0
+  1.1.0.0
 
 
   ## Authors
